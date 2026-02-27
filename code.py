@@ -6,6 +6,10 @@ from PIL import Image, ImageTk
 from PIL import ImageFilter, ImageEnhance
 # === Setup path for assets ===
 try:
+
+
+
+    # hello world
     ASSET_PATH = os.path.dirname(os.path.abspath(__file__))
 except NameError:
     ASSET_PATH = os.getcwd()
